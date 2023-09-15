@@ -1,0 +1,128 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing stack object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Title: Selfie
+Date: January 1, 1901
+Content: 
+  picture
+ ▄▀▀▀▀▀───▄█▀▀▀█▄
+▐▄▄▄▄▄▄▄▄██▌▀▄▀▐██
+▐▒▒▒▒▒▒▒▒███▌▀▐███
+ ▌▒▓▒▒▒▒▓▒██▌▀▐██
+ ▌▓▐▀▀▀▀▌▓─▀▀▀▀▀
+Title: Alien
+Date: January 1, 1901
+Content: 
+  picture
+┼┼┼┼┼┼┼┼▓▓▓▓┼┼┼
+┼╔═▒▒▒▒▓▄░░▄▓┼┼
+┼▀┼▒▒▒▓▓▒──▒▓▓┼
+┼┼┼▒▌▒▐┼▓▓▓▓┼┼┼
+Title: Baboon
+Date: January 1, 1901
+Content: 
+  picture
+─▀▀▌───────▐▀▀
+─▄▀░◌░░░░░░░▀▄
+▐░░◌░▄▀██▄█░░░▌
+▐░░░▀████▀▄░░░▌
+═▀▄▄▄▄▄▄▄▄▄▄▄▀═
+
+
+'Selfie' found, 2 marks
+'Alien' found, 2 marks
+'Baboon' found, 2 marks
+'picture' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing stack pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Title: Photo
+Date: January 1, 1901
+Content: RCMP
+Title: Title
+Date: January 1, 1901
+Content: RCMP
+Title: Here
+Date: January 1, 1901
+Content: RCMP
+
+'Photo' found, 2 marks
+'Title' found, 2 marks
+'Here' found, 2 marks
+'RCMP' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Title: Selfie
+Date: January 1, 1901
+Content: 
+  picture
+ ▄▀▀▀▀▀───▄█▀▀▀█▄
+▐▄▄▄▄▄▄▄▄██▌▀▄▀▐██
+▐▒▒▒▒▒▒▒▒███▌▀▐███
+ ▌▒▓▒▒▒▒▓▒██▌▀▐██
+ ▌▓▐▀▀▀▀▌▓─▀▀▀▀▀
+Title: Alien
+Date: January 1, 1901
+Content: 
+  picture
+┼┼┼┼┼┼┼┼▓▓▓▓┼┼┼
+┼╔═▒▒▒▒▓▄░░▄▓┼┼
+┼▀┼▒▒▒▓▓▒──▒▓▓┼
+┼┼┼▒▌▒▐┼▓▓▓▓┼┼┼
+Title: Baboon
+Date: January 1, 1901
+Content: 
+  picture
+─▀▀▌───────▐▀▀
+─▄▀░◌░░░░░░░▀▄
+▐░░◌░▄▀██▄█░░░▌
+▐░░░▀████▀▄░░░▌
+═▀▄▄▄▄▄▄▄▄▄▄▄▀═
+
+
+'Selfie' found, 2 marks
+'Alien' found, 2 marks
+'Baboon' found, 2 marks
+'picture' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Title: Photo
+Date: January 1, 1901
+Content: RCMP
+Title: Title
+Date: January 1, 1901
+Content: RCMP
+Title: Here
+Date: January 1, 1901
+Content: RCMP
+
+'Photo' found, 2 marks
+'Title' found, 2 marks
+'Here' found, 2 marks
+'RCMP' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+
+***************************************************************************
+* Mark: 40/40
+***************************************************************************
+

@@ -1,0 +1,87 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Correct order test
+
+Executing: ./test
+Adding 5 Orders to q
+Adding Customer name: Abe
+Adding Customer name: Bae
+Adding Customer name: Cedric
+Adding Customer name: Deb
+Adding Customer name: Elise
+
+Removing 5 Orders from q
+Removing: Customer name: Abe
+Removing: Customer name: Bae
+Removing: Customer name: Cedric
+Removing: Customer name: Deb
+Removing: Customer name: Elise
+Removed successfully in order, deleting queue, then deleting orders...
+
+
+Test passed
+
+Edge case test
+
+Executing: ./test
+Queue is empty!
+Adding orders...
+Customer name: Abe
+Customer name: Bae
+Customer name: Cedric
+Customer name: Deb
+Customer name: Elise
+
+Removing all but one Order ...
+Removing: Customer name: Abe
+Removing: Customer name: Bae
+Removing: Customer name: Cedric
+Removing: Customer name: Deb
+
+Customer name: Elise
+ found in front, success!
+
+Adding back 4 Orders
+Customer name: Abe
+Customer name: Bae
+Customer name: Cedric
+Customer name: Deb
+
+Customer name: Elise
+ found in front, success!
+
+Removing all Orders
+Customer name: Elise
+Customer name: Abe
+Customer name: Bae
+Customer name: Cedric
+Customer name: Deb
+
+peeking at first in queue...
+nullptr returned, success!
+
+Adding back 5 Orders
+
+Removing and printing everything in queue...
+Customer name: Abe
+Customer name: Bae
+Customer name: Cedric
+Customer name: Deb
+Customer name: Elise
+Tests complete, deleting queue
+
+Deleting orders...
+
+
+Test passed
+
+
+***************************************************************************
+* Mark: 6/6
+***************************************************************************
+

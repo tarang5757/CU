@@ -1,0 +1,67 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+\Franchise id test
+
+Executing: ./test
+Franchise Name: 
+Franchise Location: 0th Ave and 0th AveNumber of Orders: 0
+C5 found, success!
+Franchise Name: 
+Franchise Location: 0th Ave and 0th AveNumber of Orders: 0
+C1 found, success!
+Franchise Name: 
+Franchise Location: 0th Ave and 0th AveNumber of Orders: 0
+C2 found, success!
+Franchise Name: 
+Franchise Location: 0th Ave and 0th AveNumber of Orders: 0
+C4 found, success!
+Franchise Name: 
+Franchise Location: 0th Ave and 0th AveNumber of Orders: 0
+C3 found, success!
+
+
+Test passed
+
+Driver id test
+
+Executing: ./test
+Driver: Location: 0th Ave and 0th AveNumber of Orders: 0
+D5 found, success!
+Driver: Location: 0th Ave and 0th AveNumber of Orders: 0
+D1 found, success!
+Driver: Location: 0th Ave and 0th AveNumber of Orders: 0
+D2 found, success!
+Driver: Location: 0th Ave and 0th AveNumber of Orders: 0
+D4 found, success!
+Driver: Location: 0th Ave and 0th AveNumber of Orders: 0
+D3 found, success!
+
+
+Test passed
+
+Delivery test
+
+Executing: ./test
+
+Adding 3 orders to franchise...
+
+Driver picking up 2 orders...
+
+Delivering 2 orders...
+
+Driver picking up order
+
+All tests passed!
+
+
+Test passed
+
+
+***************************************************************************
+* Mark: 6/6
+***************************************************************************
+

@@ -1,0 +1,115 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Executing: ./test
+Date Criteria: April 1 2023 - April 2 2023
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should match
+Matched
+Test passed
+
+Date Criteria: April 2 2023 - April 3 2023
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should not match
+Did not match
+Test passed
+
+Testing date criteria passed
+
+
+
+Executing: ./test
+Category Criteria: Animal
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should match
+Matched
+Test passed
+
+Category Criteria: People
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should not match
+Did not match
+Test passed
+
+Testing category criteria passed
+
+
+
+Executing: ./test
+Category/date-criteria: Animal April 1 2023 April 2 2023
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should match
+Matched
+Test passed
+
+Category/date-criteria: Animal April 2 2023 April 3 2023
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should not match
+Did not match
+Test passed
+
+Category/date-criteria: People April 1 2023 April 2 2023
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should not match
+Did not match
+Test passed
+
+Category/date-criteria: People April 2 2023 April 3 2023
+Title: Bear
+Category: Animal
+Date: April 1 2023
+
+Should not match
+Did not match
+Test passed
+
+Testing artist or category criteria passed
+
+
+
+Executing: ./test
+Date Criteria: April 1 2023 - May 2 2023
+
+April 1 2023, May 2 2023 found in output, test passed
+
+Category Criteria: Animal
+
+'Animal' found in output, test passed
+
+Category/date-criteria: People April 1 2023 May 2 2023
+
+
+April 1 2023, May 2 2023 and 'People' found in output, test passed
+
+
+
+
+
+***************************************************************************
+* Mark: 12/12
+***************************************************************************
+
